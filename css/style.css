@@ -4,17 +4,22 @@ html body {
 }
 
 main {
-    color: wheat;
-    background: gray;
+    color: whitesmoke;
+    background: black;
     display: flex;
     flex-flow: column nowrap;
-    
+    height: 100dvh; 
+    align-items: center;
 }
 
 #imgcanvas {
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
+    margin: 1em;
+    width: 80%;
+    aspect-ratio: 960/540;
 }
 
 .input-wrapper {
     padding: 20px;
+    width: 80%;
 }
