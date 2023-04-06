@@ -17,6 +17,7 @@ main {
     margin: 1em;
     width: 80%;
     aspect-ratio: 960/540;
+    image-rendering: pixelated;
 }
 
 .input-wrapper {
