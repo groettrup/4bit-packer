@@ -11,30 +11,42 @@
     <body>
         <main>
             <div class="input-wrapper">
-            <label for="finput">Picture: </label>
-            <input 
-                id="finput" 
-                type="file" 
-                name="picture"
-                accept="image/png"
-            />
-            <label for="winput">width:</label>
-            <input 
+                <div>
+                    <label for="finput">picture: </label>
+                    <input 
+                    id="finput" 
+                    type="file" 
+                    name="picture"
+                    accept="image/png"
+                    />
+                </div>
+                <div>
+                <label for="winput">width:</label>
+                <input 
                 type="number"
                 id="winput"
                 name="width"
                 max="960"
                 min="0"
                 value="960" />
-            <label for="hinput">height:</label>
-            <input 
+                </div>
+                <div>
+                <label for="hinput">height:</label>
+                <input 
                 type="number"
                 id="hinput"
                 name="height"
                 max="540"
                 min="0"
                 value="540" />
+                </div>
+                <div>
+                <button 
+                id="out" 
+                name="output">copy bytearray</button>
+                </div>
             </div>
+
             <canvas id="imgcanvas" width="960" height="540">
                 This canvas shows the selected picture
             </canvas>
