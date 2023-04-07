@@ -13,11 +13,13 @@ main {
 }
 
 #imgcanvas {
-    border: 1px solid whitesmoke;
+    flex-grow: 1;
+    object-fit: contain;
+    align-self: stretch;
+    flex-shrink: 1;
     margin: 1em;
-    width: 80%;
-    aspect-ratio: 960/540;
     image-rendering: pixelated;
+    min-height: 0;
 }
 
 .input-wrapper {

@@ -46,8 +46,6 @@ function onSizeChange(change_event){
             else change_event.target.value = canvas.height
             break;
     }
-    console.log(`${change_event.target.id}: ${canvas.width} / ${canvas.height}`);
-    canvas.style["aspect-ratio"] = `${canvas.width} / ${canvas.height}`;
     if(url){
         const img = new Image()
         img.onload = () => {
