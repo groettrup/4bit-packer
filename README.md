@@ -1,4 +1,4 @@
 # 4bit-packer
 small page that allows me to pack images into an array of 4 bit grayscale values
 
-try it out as [GitHub Page](groettrup.github.io/4bit-packer)
+try it out as [GitHub Page](http://groettrup.github.io/4bit-packer)
